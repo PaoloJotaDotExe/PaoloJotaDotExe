@@ -8,12 +8,12 @@
 </p>
 
 <p align="center">
-  <img src="assets/ghosts.svg" alt="Pixel ghosts" width="520" />
+  <img src="assets/spirits.svg" alt="Pixel ghost and spirit mask" width="370" />
 </p>
 
 ---
 
-<img align="right" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/94.gif" alt="Gengar" width="110" />
+<img align="right" src="assets/phantom.gif" alt="Phantom" width="110" />
 
 ### 👻 `$ whoami`
 
@@ -22,8 +22,6 @@
 - 🤖 Built data pipelines, dashboards, and OCR solutions with Python, SQL, and machine learning
 - 🛡️ Focused on cybersecurity: defensive operations today, offensive security as the goal
 - 📍 Brasília, Brazil
-<img align="right" src="assets/phantom.gif" alt="Phantom" width="90" />
-
 ### 🔮 `$ cat current_focus.txt`
 
 | Track | Progress |
@@ -74,4 +72,4 @@
   <img src="assets/footer.svg" alt="" width="100%" />
 </p>
 
-<sub>Gengar sprite © Nintendo / Game Freak, via <a href="https://github.com/PokeAPI/sprites">PokeAPI</a>. Pixel ghosts, header, and footer are original art.</sub>
+<sub>Pixel art (header, ghost, spirit mask, footer) is original.</sub>
