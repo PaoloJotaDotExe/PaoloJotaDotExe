@@ -9,8 +9,9 @@
 </p>
 
 <p align="center">
-  <img src="assets/majora.svg" alt="Majora's Mask pixel art" height="120" />
-  <img src="assets/phantom.gif" alt="Phantom" height="124" />
+  <img src="assets/ghost_boo.gif" alt="Ghost" width="170" />
+  <img src="assets/majora.gif" alt="Majora's Mask pixel art" width="170" />
+  <img src="assets/ghost_dropping.gif" alt="Ghost" width="170" />
 </p>
 
 ### 🗂️ `joao@paolo:~$ ls ~/projects`
@@ -35,4 +36,4 @@
   <img src="assets/footer.svg" alt="" width="100%" />
 </p>
 
-<sub>Header and footer pixel art are original. Majora's Mask © Nintendo, fan pixel art.</sub>
+<sub>Header and footer pixel art are original. Majora's Mask © Nintendo (fan pixel art); ghost animations belong to their original artists.</sub>
