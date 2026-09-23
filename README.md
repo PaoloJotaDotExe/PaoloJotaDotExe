@@ -28,14 +28,10 @@
 
 ### `$ ls ~/projects`
 
-<p>
-  <a href="https://github.com/PaoloJotaDotExe/bandit-journey">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PaoloJotaDotExe&repo=bandit-journey&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff9c&icon_color=00ff9c" alt="bandit-journey" />
-  </a>
-  <a href="https://github.com/PaoloJotaDotExe/cybersecurity-journey">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PaoloJotaDotExe&repo=cybersecurity-journey&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff9c&icon_color=00ff9c" alt="cybersecurity-journey" />
-  </a>
-</p>
+| Project | Description |
+|---|---|
+| 🐧 [**bandit-journey**](https://github.com/PaoloJotaDotExe/bandit-journey) | OverTheWire Bandit writeups: approach, failed attempts, and lessons learned. Spoiler-free, no passwords published. |
+| 🛡️ [**cybersecurity-journey**](https://github.com/PaoloJotaDotExe/cybersecurity-journey) | Public log of my security studies and Google Cybersecurity Certificate portfolio activities. |
 
 ### `$ tools --list`
 
