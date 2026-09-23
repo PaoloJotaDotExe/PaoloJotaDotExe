@@ -40,7 +40,6 @@ def fetch_stats():
         commits = None
     return {
         "repos": user["public_repos"],
-        "followers": user["followers"],
         "stars": sum(r["stargazers_count"] for r in repos),
         "commits": commits,
         "langs": sorted(langs.items(), key=lambda kv: -kv[1]),
@@ -66,7 +65,7 @@ def build(stats):
         row("OS", "Windows 11, Linux (SSH)"),
         row("Uptime", "3 years in IT"),
         row("Host", "Brasília, Brazil"),
-        row("Kernel", "Data Engineering, Data Science"),
+        row("Kernel", "Data Science, Data Analysis"),
         row("Shell", "Requirements Analysis"),
         row("Focus", "Cybersecurity: blue team → offense"),
         [],
@@ -82,8 +81,7 @@ def build(stats):
         header("GitHub Stats"),
         [(". ", DIM), ("Repos", KEY), (": ", DIM), (f"{fmt(stats['repos']):<8}", VAL), ("| ", DIM),
          ("Stars", KEY), (": ", DIM), (f"{fmt(stats['stars']):<8}", VAL), ("| ", DIM),
-         ("Followers", KEY), (": ", DIM), (fmt(stats["followers"]), VAL)],
-        [(". ", DIM), ("Commits", KEY), (": ", DIM), (fmt(stats["commits"]), VAL)],
+         ("Commits", KEY), (": ", DIM), (fmt(stats["commits"]), VAL)],
     ]
 
     lh, fs = 17, 13.5          # line height / font size for the info column
