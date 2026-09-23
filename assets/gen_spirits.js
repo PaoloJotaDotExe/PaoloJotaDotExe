@@ -1,5 +1,5 @@
-// Generates assets/spirits.svg: one floating pixel ghost and an original spirit mask.
-// Both sprites are original art. Run: node assets/gen_spirits.js
+// Generates assets/spirits.svg: one floating pixel ghost and Majora's Mask.
+// The ghost is original art; the mask comes from assets/majora_grid.json. Run: node assets/gen_spirits.js
 const fs = require('fs');
 
 const GHOST = [
@@ -17,26 +17,8 @@ const GHOST = [
   'x...xx..xx...x',
 ];
 
-// Original "spirit mask": leaf-shaped wooden mask with three horns and glowing eyes.
-const MASK = [
-  '..o.....o.....o..',
-  '..oo...ooo...oo..',
-  '..ooooooooooooo..',
-  '.obllbbbbbbbbllbo.'.slice(0, 17),
-  'obbbbbbbbbbbbbbbo',
-  'obyyyybbbbbyyyybo',
-  'obyekybbbbbykeybo',
-  'obyeeybbbbbyeeybo',
-  'obyyyybblbbyyyybo',
-  'obbbbbbblbbbbbbbo',
-  'obllbbbbbbbbbllbo',
-  '.obbbbbbbbbbbbbo.',
-  '.obbbblllllbbbbo.',
-  '..obbbbbbbbbbbo..',
-  '...obbbbbbbbbo...',
-  '....oobbbbboo....',
-  '......ooooo......',
-];
+// Majora's Mask sprite, extracted from the pixel chart the owner provided (assets/majora_grid.json).
+const MASK = JSON.parse(fs.readFileSync(__dirname + '/majora_grid.json', 'utf8'));
 
 function sprite(rows, P, colors, eyeChars) {
   const out = [];
@@ -48,15 +30,15 @@ function sprite(rows, P, colors, eyeChars) {
   return out.join('');
 }
 
-const GP = 7, MP = 6;
+const GP = 7, MP = 5;
 const gW = GHOST[0].length * GP, gH = GHOST.length * GP;
 const mW = MASK[0].length * MP, mH = MASK.length * MP;
 const gap = 90, W = gW + gap + mW + 80, H = Math.max(gH, mH) + 50;
 
 const ghostColors = { x: '#b388eb', e: '#ffffff', p: '#10002b' };
 // right edge shading for depth
-const ghost = sprite(GHOST.map(r => r), GP, ghostColors, 'ep').replace(/fill="#b388eb"/g, (m, i) => m);
-const mask = sprite(MASK, MP, { o: '#240046', b: '#7b2cbf', l: '#c77dff', y: '#ffd166', e: '#06d6a0', k: '#10002b' }, 'ek');
+const ghost = sprite(GHOST, GP, ghostColors, 'ep');
+const mask = sprite(MASK, MP, { k: '#10002b', y: '#ffd60a', o: '#ff8c1a', r: '#e5383b', b: '#3a47b8', l: '#7fb8f0' }, '');
 
 let seed = 11; const rnd = () => (seed = (seed * 9301 + 49297) % 233280) / 233280;
 const flies = Array.from({ length: 14 }, () =>
