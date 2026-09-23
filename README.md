@@ -1,6 +1,6 @@
 <!-- Header -->
 <p align="center">
-  <img src="assets/header.svg" alt="João Paolo: Data Engineering, Cybersecurity, AI" width="100%" />
+  <img src="assets/header.svg" alt="João Paolo: Data Science, Cybersecurity, AI" width="100%" />
 </p>
 
 <!-- neofetch card: rebuilt daily by .github/workflows/card.yml -->
