@@ -77,6 +77,8 @@ def build(stats):
         row("OCR / Docs", "docTR, Docling"),
         row("Data", "pandas, NumPy, Matplotlib, Seaborn"),
         row("Tools", "Git, SAS Viya, SQL"),
+        row("Workbench", "Colab, Jupyter, VS Code, Cursor"),
+        row("AI Tooling", "Claude Code, Skills, RAG, Automation"),
         row("Hobbies", "Games, Soccer, Gym"),
         [],
         header("Now Playing"),

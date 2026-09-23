@@ -17,7 +17,7 @@
 
 | Project | Description |
 |---|---|
-| 🧠 [**vert-trainee-data-science**](https://github.com/PaoloJotaDotExe/vert-trainee-data-science) | Group ML, NLP, optimization and EDA projects from the Vert 2024 data trainee program, mentored by Thiago Russo. MNIST 98%, Penguins 98%, Obesity 97.6%, News NLP 0.88 F1. |
+| 🧠 [**vert-trainee-data-science**](https://github.com/PaoloJotaDotExe/vert-trainee-data-science) | Group ML, NLP, optimization and EDA projects from the Vert 2024 data trainee program, mentored by Thiago Russo. MNIST 97.6%, Penguins 98%, Obesity 97.6%, Breast cancer 96.7%, all re-verified. |
 | 🐧 [**bandit-journey**](https://github.com/PaoloJotaDotExe/bandit-journey) | OverTheWire Bandit writeups: approach, failed attempts, and lessons learned. Spoiler-free, no passwords published. |
 | 🛡️ [**cybersecurity-journey**](https://github.com/PaoloJotaDotExe/cybersecurity-journey) | Security studies log and Google Cybersecurity Certificate portfolio activities. |
 
