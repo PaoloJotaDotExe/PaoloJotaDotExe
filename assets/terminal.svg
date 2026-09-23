@@ -58,16 +58,16 @@
 <text x="356" y="399" font-size="13.5" xml:space="preserve"><tspan fill="#7b6a93">. </tspan><tspan fill="#c77dff">Course</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#7b6a93">...................... </tspan><tspan fill="#e0aaff">Google Cybersecurity Cert.</tspan></text>
 <text x="356" y="416" font-size="13.5" xml:space="preserve"></text>
 <text x="356" y="433" font-size="13.5" xml:space="preserve"><tspan fill="#7b6a93">- </tspan><tspan fill="#f3e8ff">GitHub Stats</tspan><tspan fill="#7b6a93"> -------------------------------------------</tspan></text>
-<text x="356" y="450" font-size="13.5" xml:space="preserve"><tspan fill="#7b6a93">. </tspan><tspan fill="#c77dff">Repos</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#e0aaff">4       </tspan><tspan fill="#7b6a93">| </tspan><tspan fill="#c77dff">Stars</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#e0aaff">2       </tspan><tspan fill="#7b6a93">| </tspan><tspan fill="#c77dff">Commits</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#e0aaff">21</tspan></text>
+<text x="356" y="450" font-size="13.5" xml:space="preserve"><tspan fill="#7b6a93">. </tspan><tspan fill="#c77dff">Repos</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#e0aaff">4       </tspan><tspan fill="#7b6a93">| </tspan><tspan fill="#c77dff">Stars</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#e0aaff">2       </tspan><tspan fill="#7b6a93">| </tspan><tspan fill="#c77dff">Commits</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#e0aaff">29</tspan></text>
 <text x="30" y="493" font-size="13.5" xml:space="preserve"><tspan fill="#9d4edd">joao@paolo</tspan><tspan fill="#7b6a93">:~$ </tspan><tspan fill="#f3e8ff">languages --by-bytes</tspan></text>
 <text x="48" y="517" font-size="13.5" fill="#c77dff" xml:space="preserve">Python      </text>
 <rect x="170" y="506" width="380" height="12" rx="2" fill="#1a0b2e" stroke="#3c096c"/>
-<rect x="170" y="506" width="249.3" height="12" rx="2" fill="#c77dff"/>
-<text x="564" y="517" font-size="13.5" fill="#e0aaff"> 65.6%</text>
+<rect x="170" y="506" width="265.8" height="12" rx="2" fill="#c77dff"/>
+<text x="564" y="517" font-size="13.5" fill="#e0aaff"> 69.9%</text>
 <text x="48" y="539" font-size="13.5" fill="#c77dff" xml:space="preserve">JavaScript  </text>
 <rect x="170" y="528" width="380" height="12" rx="2" fill="#1a0b2e" stroke="#3c096c"/>
-<rect x="170" y="528" width="130.7" height="12" rx="2" fill="#c77dff"/>
-<text x="564" y="539" font-size="13.5" fill="#e0aaff"> 34.4%</text>
+<rect x="170" y="528" width="114.2" height="12" rx="2" fill="#c77dff"/>
+<text x="564" y="539" font-size="13.5" fill="#e0aaff"> 30.1%</text>
 <text x="30" y="575" font-size="13.5" xml:space="preserve"><tspan fill="#9d4edd">joao@paolo</tspan><tspan fill="#7b6a93">:~$ </tspan><tspan fill="#f3e8ff"></tspan></text>
 <rect class="cursor" x="159.6" y="563" width="8" height="15" fill="#c77dff"/>
 </svg>
