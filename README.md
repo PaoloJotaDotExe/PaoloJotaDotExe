@@ -22,6 +22,8 @@
 | 🐧 [**bandit-journey**](https://github.com/PaoloJotaDotExe/bandit-journey) | OverTheWire Bandit writeups: approach, failed attempts, and lessons learned. Spoiler-free, no passwords published. |
 | 🛡️ [**cybersecurity-journey**](https://github.com/PaoloJotaDotExe/cybersecurity-journey) | Security studies log and Google Cybersecurity Certificate portfolio activities. |
 
+> 🔒 Most of my professional work at Vert (2023–2026) lives in the company's private repositories and is covered by confidentiality agreements, so it can't be published here. This profile brings together my public, study, and portfolio work.
+
 ### 🐍 `joao@paolo:~$ git log --graph`
 
 <p align="center">
