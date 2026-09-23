@@ -54,7 +54,7 @@ function wave(W, H, top, amp, step, color, phase, flip) {
 
 const W = 1000, H = 230;
 const name = text('JOÃO PAOLO', 9);
-const tags = text('DATA ENGINEERING * CYBERSECURITY * AI', 3);
+const tags = text('DATA SCIENCE * CYBERSECURITY * AI', 3);
 
 // deterministic randomness
 let seed = 7; const rnd = () => (seed = (seed * 9301 + 49297) % 233280) / 233280;
