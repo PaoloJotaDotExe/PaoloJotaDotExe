@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="985" height="553" viewBox="0 0 985 553" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace">
+<style>.cursor{animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}</style>
+<defs><linearGradient id="pg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e0aaff"/><stop offset=".6" stop-color="#c77dff"/><stop offset="1" stop-color="#7b2cbf"/></linearGradient></defs>
+<rect x="1" y="1" width="983" height="551" rx="12" fill="#0d0714" stroke="#5a189a" stroke-width="2"/>
+<rect x="2" y="2" width="981" height="30" rx="11" fill="#1a0b2e"/><rect x="2" y="20" width="981" height="12" fill="#1a0b2e"/>
+<circle cx="22" cy="17" r="6" fill="#ff5f87"/>
+<circle cx="42" cy="17" r="6" fill="#ffd166"/>
+<circle cx="62" cy="17" r="6" fill="#9d4edd"/>
+<text x="492.5" y="21" text-anchor="middle" font-size="12" fill="#7b6a93">joao@paolo: ~</text>
+<text x="30" y="54" font-size="13.5" xml:space="preserve"><tspan fill="#9d4edd">joao@paolo</tspan><tspan fill="#7b6a93">:~$ </tspan><tspan fill="#f3e8ff">neofetch</tspan></text>
+<text x="30" y="74.0" font-size="10.2" fill="url(#pg)" xml:space="preserve">            o~;^```&#x27;.&#x27;.. ... ..``^^-+x&amp;</text>
+<text x="30" y="86.2" font-size="10.2" fill="url(#pg)" xml:space="preserve">        &amp;o~:^&#x27;.&#x27;&#x27;&#x27;&#x27;&#x27;.&#x27;`^^^`&#x27;&#x27;..&#x27;&#x27;&#x27;..&#x27;^-=o</text>
+<text x="30" y="98.4" font-size="10.2" fill="url(#pg)" xml:space="preserve">       *:``&#x27;&#x27;&#x27;&#x27;`&#x27;&#x27;&#x27;.   .  &#x27;.    .  . .`^;-o@</text>
+<text x="30" y="110.6" font-size="10.2" fill="url(#pg)" xml:space="preserve">      *```&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.  ... &#x27;`  .       `&#x27;..`^;~&amp;</text>
+<text x="30" y="122.8" font-size="10.2" fill="url(#pg)" xml:space="preserve">      :^``&#x27;&#x27;......`^^&#x27;. &#x27;`   ..  ..`^`..^;-o</text>
+<text x="30" y="135.0" font-size="10.2" fill="url(#pg)" xml:space="preserve">     =````&#x27;. .&#x27;&#x27;`^:^`^`. .`&#x27;`^^:`&#x27;&#x27;``..`^;-=#</text>
+<text x="30" y="147.2" font-size="10.2" fill="url(#pg)" xml:space="preserve">     &#x27;&#x27;``&#x27;.`&#x27;&#x27;`^:::::^^&#x27; &#x27;::~~~--;;^&#x27;`^^::=&amp;</text>
+<text x="30" y="159.39999999999998" font-size="10.2" fill="url(#pg)" xml:space="preserve">    -``. `^:::;;;-;^:^.&#x27;:~;~xx%xoo*~^:::^`=</text>
+<text x="30" y="171.6" font-size="10.2" fill="url(#pg)" xml:space="preserve">    ^`&#x27;. `::;----;;--;:-~~=%##@@@#&amp;%-::^`;*</text>
+<text x="30" y="183.8" font-size="10.2" fill="url(#pg)" xml:space="preserve">    -.&#x27;&#x27; `+~~;::::~+o%%%%&amp;&amp;##xxxxx#@x`^^:-#</text>
+<text x="30" y="196.0" font-size="10.2" fill="url(#pg)" xml:space="preserve">    -&#x27;&#x27;  -o*~--;;::-=x&amp;###%o+~~====o&amp;;`^^;</text>
+<text x="30" y="208.2" font-size="10.2" fill="url(#pg)" xml:space="preserve">    o.. .=o**+=~;;;--=+o%%o+~-~+*o%#&amp;*&#x27;``-</text>
+<text x="30" y="220.39999999999998" font-size="10.2" fill="url(#pg)" xml:space="preserve">    o&#x27;..`*o*=-;-;:+~;-~o&amp;&amp;%+-;^-++x#@#^&#x27;`-</text>
+<text x="30" y="232.6" font-size="10.2" fill="url(#pg)" xml:space="preserve">    x-=^-x**ooooo*+~~=+x#&amp;&amp;#o*o%#&amp;&amp;&amp;&amp;&amp;~--</text>
+<text x="30" y="244.79999999999998" font-size="10.2" fill="url(#pg)" xml:space="preserve">     +*-ooox%%%xxx+=++*x&amp;&amp;&amp;&amp;&amp;&amp;#&amp;&amp;@@@&amp;@%#x</text>
+<text x="30" y="257.0" font-size="10.2" fill="url(#pg)" xml:space="preserve">     %~~xxx%#%%#%*+*+*x#@@@&amp;&amp;##&amp;@@@@@@#&amp;</text>
+<text x="30" y="269.2" font-size="10.2" fill="url(#pg)" xml:space="preserve">      o+oxxx%%%o**=++=*#&amp;&amp;xx#&amp;#x#@@@@@#@</text>
+<text x="30" y="281.4" font-size="10.2" fill="url(#pg)" xml:space="preserve">       %oxooo+--==-;;;-+o*+*o%#x+%@@@@@</text>
+<text x="30" y="293.6" font-size="10.2" fill="url(#pg)" xml:space="preserve">        &amp;xoo*=;;:;--~-=+=++++++==*&amp;&amp;@</text>
+<text x="30" y="305.79999999999995" font-size="10.2" fill="url(#pg)" xml:space="preserve">         xoo*o*=-:-~+*ooxxxx*~=*%&amp;&amp;&amp;@</text>
+<text x="30" y="318.0" font-size="10.2" fill="url(#pg)" xml:space="preserve">          *++**++++=*oxxx%%%x%%#&amp;&amp;#%@</text>
+<text x="30" y="330.2" font-size="10.2" fill="url(#pg)" xml:space="preserve">          #+~==~~+++++=+*o%##%ox#%%&amp;</text>
+<text x="30" y="342.4" font-size="10.2" fill="url(#pg)" xml:space="preserve">           *~~~--=*oo***ox###xo*x%</text>
+<text x="30" y="354.59999999999997" font-size="10.2" fill="url(#pg)" xml:space="preserve">           *==~-::-~+x%xx%x*+=**%</text>
+<text x="30" y="366.79999999999995" font-size="10.2" fill="url(#pg)" xml:space="preserve">           +~===~;::;-~;;;;;~*x%&amp;</text>
+<text x="30" y="379.0" font-size="10.2" fill="url(#pg)" xml:space="preserve">           ===~~~==~-----~=*x%%%#</text>
+<text x="30" y="391.2" font-size="10.2" fill="url(#pg)" xml:space="preserve">          x===~~~~~=++++oxxxxx%%#</text>
+<text x="30" y="403.4" font-size="10.2" fill="url(#pg)" xml:space="preserve">          ++=====~=+***ox%xx%%%#%</text>
+<text x="356" y="76" font-size="13.5" xml:space="preserve"><tspan fill="#c77dff">joao</tspan><tspan fill="#7b6a93">@</tspan><tspan fill="#c77dff">paolo</tspan><tspan fill="#7b6a93"> -----------------------------------------------</tspan></text>
+<text x="356" y="93" font-size="13.5" xml:space="preserve"><tspan fill="#7b6a93">. </tspan><tspan fill="#c77dff">OS</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#7b6a93">............................. </tspan><tspan fill="#e0aaff">Windows 11, Linux (SSH)</tspan></text>
+<text x="356" y="110" font-size="13.5" xml:space="preserve"><tspan fill="#7b6a93">. </tspan><tspan fill="#c77dff">Uptime</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#7b6a93">................................... </tspan><tspan fill="#e0aaff">3 years in IT</tspan></text>
+<text x="356" y="127" font-size="13.5" xml:space="preserve"><tspan fill="#7b6a93">. </tspan><tspan fill="#c77dff">Host</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#7b6a93">.................................. </tspan><tspan fill="#e0aaff">Brasília, Brazil</tspan></text>
+<text x="356" y="144" font-size="13.5" xml:space="preserve"><tspan fill="#7b6a93">. </tspan><tspan fill="#c77dff">Kernel</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#7b6a93">.................. </tspan><tspan fill="#e0aaff">Data Engineering, Data Science</tspan></text>
+<text x="356" y="161" font-size="13.5" xml:space="preserve"><tspan fill="#7b6a93">. </tspan><tspan fill="#c77dff">Shell</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#7b6a93">............................ </tspan><tspan fill="#e0aaff">Requirements Analysis</tspan></text>
+<text x="356" y="178" font-size="13.5" xml:space="preserve"><tspan fill="#7b6a93">. </tspan><tspan fill="#c77dff">Focus</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#7b6a93">............... </tspan><tspan fill="#e0aaff">Cybersecurity: blue team → offense</tspan></text>
+<text x="356" y="195" font-size="13.5" xml:space="preserve"></text>
+<text x="356" y="212" font-size="13.5" xml:space="preserve"><tspan fill="#7b6a93">. </tspan><tspan fill="#c77dff">Languages.Code</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#7b6a93">........... </tspan><tspan fill="#e0aaff">Python, SQL, Bash, PowerShell</tspan></text>
+<text x="356" y="229" font-size="13.5" xml:space="preserve"><tspan fill="#7b6a93">. </tspan><tspan fill="#c77dff">Languages.Real</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#7b6a93">..................... </tspan><tspan fill="#e0aaff">Portuguese, English</tspan></text>
+<text x="356" y="246" font-size="13.5" xml:space="preserve"><tspan fill="#7b6a93">. </tspan><tspan fill="#c77dff">Tools</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#7b6a93">........................ </tspan><tspan fill="#e0aaff">Git, SAS Viya, ML/DL, OCR</tspan></text>
+<text x="356" y="263" font-size="13.5" xml:space="preserve"><tspan fill="#7b6a93">. </tspan><tspan fill="#c77dff">Hobbies</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#7b6a93">............................. </tspan><tspan fill="#e0aaff">Games, Soccer, Gym</tspan></text>
+<text x="356" y="280" font-size="13.5" xml:space="preserve"></text>
+<text x="356" y="297" font-size="13.5" xml:space="preserve"><tspan fill="#7b6a93">- </tspan><tspan fill="#f3e8ff">Now Playing</tspan><tspan fill="#7b6a93"> --------------------------------------------</tspan></text>
+<text x="356" y="314" font-size="13.5" xml:space="preserve"><tspan fill="#7b6a93">. </tspan><tspan fill="#c77dff">Wargame</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#7b6a93">............................. </tspan><tspan fill="#e0aaff">OverTheWire Bandit</tspan></text>
+<text x="356" y="331" font-size="13.5" xml:space="preserve"><tspan fill="#7b6a93">. </tspan><tspan fill="#c77dff">Course</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#7b6a93">...................... </tspan><tspan fill="#e0aaff">Google Cybersecurity Cert.</tspan></text>
+<text x="356" y="348" font-size="13.5" xml:space="preserve"></text>
+<text x="356" y="365" font-size="13.5" xml:space="preserve"><tspan fill="#7b6a93">- </tspan><tspan fill="#f3e8ff">GitHub Stats</tspan><tspan fill="#7b6a93"> -------------------------------------------</tspan></text>
+<text x="356" y="382" font-size="13.5" xml:space="preserve"><tspan fill="#7b6a93">. </tspan><tspan fill="#c77dff">Repos</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#e0aaff">4       </tspan><tspan fill="#7b6a93">| </tspan><tspan fill="#c77dff">Stars</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#e0aaff">2       </tspan><tspan fill="#7b6a93">| </tspan><tspan fill="#c77dff">Followers</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#e0aaff">0</tspan></text>
+<text x="356" y="399" font-size="13.5" xml:space="preserve"><tspan fill="#7b6a93">. </tspan><tspan fill="#c77dff">Commits</tspan><tspan fill="#7b6a93">: </tspan><tspan fill="#e0aaff">21</tspan></text>
+<text x="30" y="443.59999999999997" font-size="13.5" xml:space="preserve"><tspan fill="#9d4edd">joao@paolo</tspan><tspan fill="#7b6a93">:~$ </tspan><tspan fill="#f3e8ff">languages --by-bytes</tspan></text>
+<text x="48" y="467.59999999999997" font-size="13.5" fill="#c77dff" xml:space="preserve">Python      </text>
+<rect x="170" y="456.59999999999997" width="380" height="12" rx="2" fill="#1a0b2e" stroke="#3c096c"/>
+<rect x="170" y="456.59999999999997" width="210.6" height="12" rx="2" fill="#c77dff"/>
+<text x="564" y="467.59999999999997" font-size="13.5" fill="#e0aaff"> 55.4%</text>
+<text x="48" y="489.59999999999997" font-size="13.5" fill="#c77dff" xml:space="preserve">JavaScript  </text>
+<rect x="170" y="478.59999999999997" width="380" height="12" rx="2" fill="#1a0b2e" stroke="#3c096c"/>
+<rect x="170" y="478.59999999999997" width="169.4" height="12" rx="2" fill="#c77dff"/>
+<text x="564" y="489.59999999999997" font-size="13.5" fill="#e0aaff"> 44.6%</text>
+<text x="30" y="525.5999999999999" font-size="13.5" xml:space="preserve"><tspan fill="#9d4edd">joao@paolo</tspan><tspan fill="#7b6a93">:~$ </tspan><tspan fill="#f3e8ff"></tspan></text>
+<rect class="cursor" x="159.6" y="513.5999999999999" width="8" height="15" fill="#c77dff"/>
+</svg>
