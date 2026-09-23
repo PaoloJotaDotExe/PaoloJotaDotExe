@@ -12,11 +12,11 @@ MASK.forEach((row, y) => [...row].forEach((c, x) => {
   if (c !== '.') rects.push(`<rect x="${x * P}" y="${y * P}" width="${P}" height="${P}" fill="${COLORS[c]}"/>`);
 }));
 
-const W = MASK[0].length * P, H = MASK.length * P + 20;
+const W = MASK[0].length * P, H = MASK.length * P + 6;
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" shape-rendering="crispEdges">
 <style>
   .float { animation: float 4s ease-in-out infinite; }
-  @keyframes float { 0%,100% { transform: translateY(10px); } 50% { transform: translateY(0); } }
+  @keyframes float { 0%,100% { transform: translateY(6px); } 50% { transform: translateY(0); } }
 </style>
 <g class="float">${rects.join('')}</g>
 </svg>

@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <img src="assets/majora.svg" alt="Majora's Mask pixel art" height="130" />
-  <img src="assets/phantom.gif" alt="Phantom" height="130" />
+  <img src="assets/majora.svg" alt="Majora's Mask pixel art" height="120" />
+  <img src="assets/phantom.gif" alt="Phantom" height="124" />
 </p>
 
 ### 🗂️ `joao@paolo:~$ ls ~/projects`
