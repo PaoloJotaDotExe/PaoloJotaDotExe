@@ -56,34 +56,82 @@ const W = 1000, H = 230;
 const name = text('JOÃO PAOLO', 9);
 const tags = text('DATA ENGINEERING * CYBERSECURITY * AI', 3);
 
-// deterministic "stars"
+// deterministic randomness
 let seed = 7; const rnd = () => (seed = (seed * 9301 + 49297) % 233280) / 233280;
-const stars = Array.from({ length: 34 }, (_, i) => {
-  const x = Math.floor(rnd() * W / 4) * 4, y = Math.floor(rnd() * 150 / 4) * 4;
-  return `<rect class="tw" style="animation-delay:${(rnd() * 3).toFixed(2)}s" x="${x}" y="${y}" width="4" height="4" fill="#e0aaff"/>`;
+const stars = Array.from({ length: 26 }, () => {
+  const x = Math.floor(rnd() * W / 4) * 4, y = Math.floor(rnd() * 90 / 4) * 4;
+  return `<rect class="tw" style="animation-delay:${(rnd() * 3).toFixed(2)}s" x="${x}" y="${y}" width="3" height="3" fill="#f3e8ff"/>`;
+}).join('');
+
+// Pixel moon: filled circle with a soft halo.
+function moon(cx, cy, r, s) {
+  let out = '';
+  for (let y = -r - 3; y <= r + 3; y++) for (let x = -r - 3; x <= r + 3; x++) {
+    const d = Math.hypot(x, y);
+    const fill = d <= r ? (x > r / 3 && y < -r / 4 ? '#ffffff' : '#fff3d6') : d <= r + 3 ? '#e0aaff' : null;
+    const op = d <= r ? 1 : 0.12;
+    if (fill) out += `<rect x="${cx + x * s}" y="${cy + y * s}" width="${s}" height="${s}" fill="${fill}" opacity="${op}"/>`;
+  }
+  return out;
+}
+
+// Soft pixel clouds that drift across the sky.
+const CLOUD = ['....xxxx.......', '..xxxxxxxx.xxx.', '.xxxxxxxxxxxxxx', 'xxxxxxxxxxxxxxx', '.xxxxxxxxxxxxx.'];
+function cloud(y, s, dur, delay, op) {
+  const r = [];
+  CLOUD.forEach((row, cy) => [...row].forEach((c, cx) => { if (c === 'x') r.push(`<rect x="${cx * s}" y="${y + cy * s}" width="${s}" height="${s}"/>`); }));
+  return `<g class="drift" fill="#f3e8ff" opacity="${op}" style="animation-duration:${dur}s;animation-delay:-${delay}s">${r.join('')}</g>`;
+}
+
+// Rolling pixel hills (stepped silhouettes).
+function hills(top, amp, freq, phase, color, step = 8) {
+  let out = '';
+  for (let x = 0; x < W; x += step) {
+    const h = Math.round((top + amp * Math.sin(x / freq + phase) + amp * 0.5 * Math.sin(x / (freq * 0.43) + phase * 2)) / step) * step;
+    out += `<rect x="${x}" y="${H - h}" width="${step}" height="${h}" fill="${color}"/>`;
+  }
+  return out;
+}
+
+const flies = Array.from({ length: 16 }, () => {
+  const x = Math.floor(rnd() * W / 3) * 3, y = H - 20 - Math.floor(rnd() * 30 / 3) * 3;
+  return `<rect class="fly" style="animation-delay:${(rnd() * 4).toFixed(2)}s" x="${x}" y="${y}" width="3" height="3" fill="#fff3b0"/>`;
 }).join('');
 
 const header = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" shape-rendering="crispEdges">
 <style>
   .tw { animation: tw 3s steps(2) infinite; }
-  @keyframes tw { 0%,100% { opacity: .9; } 50% { opacity: .15; } }
-  .glow { animation: glow 2.4s ease-in-out infinite; }
-  @keyframes glow { 0%,100% { opacity: 1; } 50% { opacity: .82; } }
+  @keyframes tw { 0%,100% { opacity: .9; } 50% { opacity: .2; } }
+  .drift { animation-name: drift; animation-timing-function: linear; animation-iteration-count: infinite; }
+  @keyframes drift { from { transform: translateX(-260px); } to { transform: translateX(${W + 40}px); } }
+  .fly { animation: fly 3.5s ease-in-out infinite; }
+  @keyframes fly { 0%,100% { opacity: 0; } 50% { opacity: .95; } }
+  .glow { animation: glow 2.6s ease-in-out infinite; }
+  @keyframes glow { 0%,100% { opacity: 1; } 50% { opacity: .85; } }
 </style>
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#10002b"/><stop offset=".55" stop-color="#240046"/><stop offset="1" stop-color="#3c096c"/></linearGradient></defs>
-<rect width="${W}" height="${H}" fill="url(#bg)"/>
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#1b0f3a"/><stop offset=".45" stop-color="#3c1f6e"/><stop offset=".8" stop-color="#7b4fb5"/><stop offset="1" stop-color="#c9a7e8"/>
+</linearGradient></defs>
+<rect width="${W}" height="${H}" fill="url(#sky)"/>
 ${stars}
-${wave(W, H, 44, 10, 10, '#5a189a', 0, false)}
-${wave(W, H, 26, 8, 10, '#9d4edd', 1.7, false)}
-<g class="glow">${draw(name, (W - name.width) / 2, 58, 9, '#ffffff', '#7b2cbf')}</g>
-${draw(tags, (W - tags.width) / 2, 148, 3, '#e0aaff', null)}
+${moon(880, 50, 6, 4)}
+${cloud(18, 6, 70, 10, 0.55)}
+${cloud(84, 5, 95, 60, 0.35)}
+${cloud(40, 4, 120, 35, 0.3)}
+${hills(46, 10, 140, 0.4, '#5a189a')}
+${hills(28, 8, 110, 2.1, '#3c096c')}
+${hills(12, 5, 70, 4.0, '#240046')}
+${flies}
+<g class="glow">${draw(name, (W - name.width) / 2, 50, 9, '#ffffff', '#5a189a')}</g>
+${draw(tags, (W - tags.width) / 2 + 1, 141, 3, '#240046', null)}
+${draw(tags, (W - tags.width) / 2, 140, 3, '#f3e8ff', null)}
 </svg>
 `;
 
 const FH = 90;
 const footer = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${FH}" viewBox="0 0 ${W} ${FH}" shape-rendering="crispEdges">
-${wave(W, FH, 60, 12, 10, '#5a189a', 0.8, true)}
-${wave(W, FH, 36, 10, 10, '#9d4edd', 2.3, true)}
+${wave(W, FH, 60, 12, 8, '#3c096c', 0.8, true)}
+${wave(W, FH, 36, 10, 8, '#7b4fb5', 2.3, true)}
 </svg>
 `;
 
